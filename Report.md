@@ -7,8 +7,8 @@
 На тестирование затрачено: 10 часов
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/Orlov-D/DZ_1.1/issues/1
-* https://github.com/Orlov-D/DZ_1.1/issues/2
+* [Номер карты виза не проходит валидацию.](https://github.com/Orlov-D/DZ_1.1/issues/1)
+* [Номер карты JCB не проходит валидацию.](https://github.com/Orlov-D/DZ_1.1/issues/2)
 
 ## Описание процесса тестирования
 

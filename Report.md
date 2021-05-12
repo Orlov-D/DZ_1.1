@@ -7,8 +7,7 @@
 На тестирование затрачено: 10 часов
 
 В результате тестирования выявлены следующие дефекты:
-* [Номер карты виза не проходит валидацию.](https://github.com/Orlov-D/DZ_1.1/issues/1)
-* [Номер карты JCB не проходит валидацию.](https://github.com/Orlov-D/DZ_1.1/issues/2)
+* [Номера карт неравные 16 символов не проходят валидацию.](https://github.com/Orlov-D/DZ_1.1/issues/1)
 
 ## Описание процесса тестирования
 
@@ -19,7 +18,7 @@
 * VISA:
   * 4716988961344135 Result is OK
   * 4929187036076896 Result is OK
-  * 4485387290198324518 Result is Fail
+  * 4485387290198324518 Result is OK
 * MasterCard:
   * 5479575106606488 Result is OK
   * 5126106554154818 Result is OK
@@ -31,9 +30,17 @@
 * JCB:
     * 3531942555891865 Result is OK
     * 3539412466401552 Result is OK
-    * 3539456204471535626 Result is Fail    
+    * 3539456204471535626 Result is OK    
 * MIR:
   * 2201382000000013 Result is OK
+* American Express (AMEX):
+  * 344117488250694 Result is OK
+  * 347812661326090 Result is OK
+  * 374785399064918 Result is OK
+* Diners Club - Carte Blanche:
+  * 30209194423381 Result is OK
+  * 30522139783127 Result is OK
+  * 30039947347029 Result is OK
 
 Тестирование производилось в следующем окружении:
 * Windows 10 pro N (1809), x64
